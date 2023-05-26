@@ -1,0 +1,17 @@
+export train_batch_size=16
+export eval_batch_size=64
+export epochs=20
+export learning_rate=3e-4
+export alpha=0.5
+export data_format=AO
+export use_marker=True
+export constraint_decoding=True
+export model_name_or_path=/data/PretrainModel/t5-base
+export save_strategy=no
+export evaluation_strategy=no
+export save_steps=40
+export eval_steps=40
+export marker_type=AO
+export shot_ratio_index="-1[+]-1[+]0"
+export warmup_ratio=0
+export load_best_model_at_end=False
